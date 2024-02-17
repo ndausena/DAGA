@@ -1,0 +1,22 @@
+//declaro variables//
+
+real Precio_neto ,  Precio_total , Descuento,
+inicio
+
+//pide datos en pantalla//
+escriba "Precio total" 
+lea Precio_neto
+
+//calculo//
+Porcentaje <- (precio_neto * 15) / 100
+Descuento <- porcentaje - Precio total
+Precio_especial <- precio_neto - descuento
+
+//muestra resultado//
+Escriba "Su valor total es: ", precio_especial
+llamar nueva_linea
+Escriba "Tu descuento recibido es:  ", Descuento
+llamar nueva_linea
+Escriba "Precio neto: ", Precio_neto
+
+FIN
